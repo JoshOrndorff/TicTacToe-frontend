@@ -63,7 +63,7 @@ function Main () {
             <BlockNumber finalized />
           </Grid.Row>
           <Grid.Row>
-            <TicTacToe />
+            <TicTacToe  accountPair={accountPair}/>
           </Grid.Row>
           <Grid.Row stretched>
             <Balances />
