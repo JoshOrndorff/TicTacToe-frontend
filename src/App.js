@@ -13,6 +13,7 @@ import Interactor from './Interactor';
 import Metadata from './Metadata';
 import NodeInfo from './NodeInfo';
 import TemplateModule from './TemplateModule';
+import TicTacToe from './TicTacToe';
 import Transfer from './Transfer';
 import Upgrade from './Upgrade';
 
@@ -60,6 +61,9 @@ function Main () {
             <Metadata />
             <BlockNumber />
             <BlockNumber finalized />
+          </Grid.Row>
+          <Grid.Row>
+            <TicTacToe />
           </Grid.Row>
           <Grid.Row stretched>
             <Balances />

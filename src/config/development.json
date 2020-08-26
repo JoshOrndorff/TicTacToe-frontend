@@ -1,7 +1,17 @@
 {
   "CUSTOM_TYPES": {
     "Address": "AccountId",
-    "LookupSource": "AccountId"
+    "LookupSource": "AccountId",
+    "GameId": "u64",
+    "CellIndex": "u8",
+    "Line": {
+      "_enum": {
+        "Column": "u8",
+        "Row": "u8",
+        "Downhill": null,
+        "Uphill": null
+      }
+    }
   },
   "PROVIDER_SOCKET": "ws://127.0.0.1:9944"
 }
