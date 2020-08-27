@@ -189,8 +189,8 @@ export default function Main({accountPair}) {
           </Grid.Column>
           <Grid.Column>
             <span>Players:</span>
-            <Identicon account={players[0]} size={48} />
-            <Identicon account={players[1]} size={48} />
+            <Identicon value={players[0]} size={48} />
+            <Identicon value={players[1]} size={48} />
           </Grid.Column>
         </Grid.Row>
         {/* TODO how to not hardcode this rendering */}
